@@ -1,0 +1,34 @@
+{
+  "locations": [
+    {
+      "id": "la-county",
+      "name": "Los Angeles County",
+      "city": "los-angeles",
+      "state": "california",
+      "courtFormatting": {
+        "salutation": "To the Honorable Court:",
+        "spacing": "double",
+        "specialStatements": [
+          "I declare under penalty of perjury that the foregoing is true and correct.",
+          "Executed on [DATE] at [CITY], California."
+        ],
+        "requiredSections": [
+          "ticket_information",
+          "circumstances",
+          "defense",
+          "request"
+        ]
+      },
+      "seoMetadata": {
+        "title": "Fight Los Angeles Traffic Tickets | Professional Declaration Letters",
+        "description": "Get help fighting your Los Angeles traffic ticket with our  declaration letter service. Money-back guarantee if unsuccessful.",
+        "keywords": [
+          "Los Angeles traffic ticket",
+          "LA County traffic court",
+          "fight traffic ticket Los Angeles",
+          "traffic ticket declaration letter"
+        ]
+      }
+    }
+  ]
+}
