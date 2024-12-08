@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Traffic Ticket Helper - Fight Your Traffic Ticket or Your Money Back</title>
+	<title>No Ticket Please - Fight Your Traffic Ticket or Your Money Back</title>
 	<meta
 		name="description"
 		content="Get help fighting your traffic ticket with our Lawyer designed letter generation service. Money-back guarantee if unsuccessful."
@@ -14,13 +14,17 @@
 	<div class="container-wrapper py-16 md:py-24">
 		<div class="max-w-3xl mx-auto text-center">
 			<h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-				Fight Your Traffic Ticket with Confidence
+				Fight Your Ticket or Your Money Back!
 			</h1>
 
-			<p class="text-xl text-gray-600 mb-8">
-				Generate a professional declaration letter tailored to your local court's requirements.
-				Money-back guarantee if unsuccessful.
+			<p class=" text-xl font-black mb-8">
+				See if you qualify today
 			</p>
+
+			<div class="flex justify-center space-x-4 mb-8">
+				<a href="/login" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">Login</a>
+				<a href="/signup" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">Sign Up</a>
+			</div>
 
 			<LocationSearch />
 
